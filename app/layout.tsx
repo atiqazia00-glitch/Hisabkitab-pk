@@ -1,6 +1,9 @@
-export const metadata = {
-  title: 'HisabKitab',
-  description: 'Expense Tracker',
+import type { Metadata } from 'next'
+import React from 'react'
+
+export const metadata: Metadata = {
+  title: 'HisabKitab PK',
+  description: 'Simple Hisab Kitab App',
 }
 
 export default function RootLayout({
